@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-візитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #555;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .about, .contact {
+            margin-bottom: 2rem;
+        }
+        .about h2, .contact h2 {
+            font-size: 1.8rem;
+            color: #444;
+        }
+        .about p, .contact p {
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Тимофій Гнесь</h1>
+        <p>Разом до Мрії</p>
+    </header>
+    <nav>
+        <a href="#about">Хоббі - гуляти на свіжому повітрі </a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Про мене</h2>
+            <p>Цікавлюсь інтернет іграми, новинками кіно та музики</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Контакти</h2>
+            <p>Телефон: +380 XX XXX XXXX</p>
+            <p>Email: example@email.com</p>
+            <p>Соціальні мережі: <a href="https://linkedin.com" target="_blank">LinkedIn</a>, <a href="https://facebook.com" target="_blank">Facebook</a></p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Гнесь Тимофій. Всі права захищені.
+    </footer>
+</body>
+</html>
